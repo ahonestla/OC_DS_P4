@@ -11,13 +11,5 @@ Vous cherchez également à **évaluer l’intérêt de l’"ENERGY STAR Score" 
 Vous sortez tout juste d’une réunion de brief avec votre équipe. Voici un récapitulatif de votre mission :
 
 Réaliser une courte analyse exploratoire.
-Tester différents modèles de prédiction afin de répondre au mieux à la problématique.
-Avant de quitter la salle de brief, Douglas, le project lead, vous donne quelques pistes et erreurs à éviter :
-
-
-
-Douglas : L’objectif est de te passer des relevés de consommation annuels futurs (attention à la fuite de données). Nous ferons de toute façon pour tout nouveau bâtiment un premier relevé de référence la première année, donc rien ne t'interdit d’en déduire des variables structurelles aux bâtiments, par exemple la nature et proportions des sources d’énergie utilisées.. 
-
-Fais bien attention au traitement des différentes variables, à la fois pour trouver de nouvelles informations (peut-on déduire des choses intéressantes d’une simple adresse ?) et optimiser les performances en appliquant des transformations simples aux variables (normalisation, passage au log, etc.).
-
-Mets en place une évaluation rigoureuse des performances de la régression, et optimise les hyperparamètres et le choix d’algorithmes de ML à l’aide d’une validation croisée.
+* Tester différents modèles de prédiction afin de répondre au mieux à la problématique.
+* Avant de quitter la salle de brief, Douglas, le project lead, vous donne quelques pistes et erreurs à éviter :

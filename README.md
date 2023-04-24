@@ -1,14 +1,26 @@
-# Anticipez les besoins en consommation de bâtiments
-OPENCLASSROOMS - Formation Data Scientist - Projet 4
+## 🏢 Predicting Seattle buildings consumption and emissions with machine learning 
+OPENCLASSROOMS - Data Scientist - Project 4
 
-Vous travaillez pour la **ville de Seattle**. Pour atteindre son objectif de ville neutre en émissions de carbone en 2050, votre équipe s’intéresse de près à la consommation et aux émissions des **bâtiments non destinés à l’habitation**.
+This repository contains notebooks for a machine learning project that predicts energy consumption and greenhouse gas emissions based on various features. 
 
-![image](https://user-images.githubusercontent.com/111356254/209665468-5507cc99-b4ad-4eba-a200-e0996fca9228.png)
+### 📊 Data
 
-Des relevés minutieux ont été effectués par les agents de la ville en 2016. Cependant, ces relevés sont coûteux à obtenir, et à partir de ceux déjà réalisés, **vous voulez tenter de prédire les émissions de CO2 et la consommation totale d’énergie** de bâtiments **non destinés à l’habitation** pour lesquels elles n’ont pas encore été mesurées.
+The dataset used for this project is the [Seattle 2016 Building Energy Benchmarking](https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy), which includes information on various features of buildings in Seattle city.
 
-Vous cherchez également à **évaluer l’intérêt de l’"ENERGY STAR Score" pour la prédiction d’émissions**, qui est fastidieux à calculer avec l’approche utilisée actuellement par votre équipe. Vous l'intégrerez dans la modélisation et jugerez de son intérêt.
+### 📁 Files
 
-Vous sortez tout juste d’une réunion de brief avec votre équipe. Voici un récapitulatif de votre mission :
-* Réaliser une courte analyse exploratoire.
-* Tester différents modèles de prédiction afin de répondre au mieux à la problématique.
+- *barbier_victor_1_notebook_exploratoire_092022.ipynb* : Exploratory data analysis of the building features
+- *barbier_victor_2_notebook_prediction_energy.ipynb* : Machine learning models for the prediction of energy consumption
+- *barbier_victor_2_notebook_prediction_ghge.ipynb* : Machine learning models for the prediction of greenhouse gas emissions
+- *barbier_victor_4_presentation_092022.pdf*: Final presentation of the project
+
+### 🛠️ Tools
+
+- Python 3.x
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib / Seaborn
+- Scikit-learn
+- XGBoost
+- Lime
